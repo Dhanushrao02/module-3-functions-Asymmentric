@@ -1,6 +1,7 @@
 /* Program to perform subtraction using function
 	input: 10 7
 	output: 3*/
+
 	#include<stdio.h>
 	//write the function prototype
 	int sub(int a,int b){

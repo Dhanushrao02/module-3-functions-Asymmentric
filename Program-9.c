@@ -2,6 +2,7 @@
 	input:5
 	output:The entered number is odd
 	*/
+
 	#include<stdio.h>
 	 //if the least significant bit is 1 the number is odd and 0 the number is even 
 	int checkOdd(int n1)

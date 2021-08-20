@@ -3,20 +3,19 @@
 	input: 3 6
 	output: 9*/
 	#include<stdio.h>
-	int increment(int var)
-	{
-	    var=var+1;
-	    return var;
+	int sum(int a,int b)
+	{ int c;
+	   c=a+b;
+     return c; //Complete the missing code
 	}
 	int main()
 	{
-	 //Declare the variables
-   int num1,num2;
-	   printf("Enter num1:");
-	   scanf("%d",&num1);
-	   num2=increment(num1);
-	   printf("num2 value is:%d",num2);
-     //enter the missing data
-	   return 0;
+	    int var1,var2,var3;
+	    printf("Enter two numbers:");
+	    scanf("%d%d",&var1,&var2);
+	    var3=sum(var1,var2);
+	    printf("%d",var3);
+	    return 0;
 	}
+
 	

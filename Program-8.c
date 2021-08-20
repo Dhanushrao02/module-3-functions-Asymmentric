@@ -2,7 +2,7 @@
 	input:20
 	output:
 	The square of 20 is:400*/
-	
+
 	#include<stdio.h>
   int square(int a){
     int b;
@@ -20,6 +20,8 @@
 	    printf("The square of %d is:%d",num,n); 
 	    return 0;
 	}
+
+
 
 
 
